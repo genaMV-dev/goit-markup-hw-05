@@ -268,7 +268,6 @@ li {
 .social-item{
     width: 40px;
     height: 40px;
-    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link{
@@ -279,6 +278,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -356,6 +356,21 @@ li {
 .footer{
     background-color: #2e2f42;
     padding: 100px 0;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
+.social-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer .main-logo{
